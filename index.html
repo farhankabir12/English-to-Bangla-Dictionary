@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <style>
+        .class1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+        }
+        .class2{
+            
+            height: 80px;
+            margin-top: 30px;
+            font-size: large;
+            width: 30%;
+        }
+        .class3{
+            text-align: center;
+            font-size: large;
+        }
+    </style>
+
+</head>
+<body style="background-color:#9cc7d4;">
+    <div class="class3">
+        <h2>English to Bangla Dictionary</h2>
+    </div>
+    <div class="class1">
+        <input type="text" class="class2" id="query" onkeyup="search()" placeholder="Enter Your Word.">
+    </div>
+    <div class="class3">
+        <p id="output1" class="text-center text-wrap output"> </p>
+        <p id="output2" class="text-center text-wrap output"> </p>
+        <p id="output3" class="text-center text-wrap output"> </p>
+        <p id="output4" class="text-center text-wrap output"> </p>
+        <p id="output5" class="text-center text-wrap output"> </p>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
